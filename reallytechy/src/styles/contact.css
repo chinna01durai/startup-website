@@ -1,0 +1,68 @@
+
+.section-five{
+    position: fixed;
+    min-width: 100%;
+    bottom: 0;
+}
+
+
+.text-contact{
+    text-align: center;
+}
+.section-contact-two{
+    margin-top:70px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 40px;
+    gap: 25px;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-2);
+    gap: 10px;
+}
+input{
+    padding: 5px;
+}
+
+@media (max-width:1024px){
+
+    .section-contact-two{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
